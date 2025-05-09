@@ -295,6 +295,24 @@ html, body {
     height: 200px;
 }
 /* END MENU */
-@media (max-width:445px){
-    /* smaller cards */
+.contactUs{
+    background-color: var(--mainColor2);
+    padding: 20px;
+}
+.contactUs .socials{
+    display: grid;
+    justify-content: space-evenly;
+    gap: 20px;
+    grid-template-columns: auto auto;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.contactUs .socials a{
+    color: #333333;
+}
+footer{
+    background-color: #333333;
+    padding: 15px;
+    text-align: center;
+    color: white;
 }
